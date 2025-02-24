@@ -22,13 +22,13 @@ endre på verdiene i variablene for å se at din conditional kan håndtere alle 
 
 */
 
-let tomObject = {
-  userName: "Tom",
-  userAge: 18,
-  userIsAdmin: true,
-  userIsLoggedIn: false,
-  userIsBlocked: false,
-};
+// let tomObject = {
+//   userName: "Tom",
+//   userAge: 18,
+//   userIsAdmin: true,
+//   userIsLoggedIn: false,
+//   userIsBlocked: false,
+// }; //I do not use an object here, but I imagine it could be useful, by having for example admin rights and non-blocked statuses linked to the users object
 
 const userName = "Tom"; //these are variables to call later
 const userAge = 18;
