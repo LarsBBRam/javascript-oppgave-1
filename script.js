@@ -42,7 +42,7 @@ let goToPage = ""; //Makes an empty string container
 
 if (
   userName != null && //checks if the userName is not nothing
-  userAge > 18 && //Checks if the age is more than 18
+  userAge >= 18 && //Checks if the age is more than 18
   userIsBlocked != true && //Checks that the user is not blocked (could check if he is blocked, but I wanted to use !=)
   userIsLoggedIn == false //if the user is already logged in, they should not reach this screen to begin with
 ) {
